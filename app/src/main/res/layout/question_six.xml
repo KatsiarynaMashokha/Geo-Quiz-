@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.testtry.MainActivity">
+    <LinearLayout
+        style="@style/ParentLinearLayout">
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:text="@string/QuestionSix" />
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/bonjour"
+            android:layout_gravity="center_horizontal" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q6A1_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ6"
+                android:text="Belgium" />
+
+            <RadioButton
+                android:id="@+id/q6A2_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ6"
+                android:text="Netherlands" />
+
+            <RadioButton
+                android:id="@+id/q6A3_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ6"
+                android:text="Cameroon" />
+            <RadioButton
+                android:id="@+id/q6A4_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ6"
+                android:text="Luxembourg" />
+
+        </RadioGroup>
+        <Button
+            android:onClick="onClickQ6Submit"
+            style="@style/SubmitAnswer"
+            android:text="@string/SubmitAnswer"/>
+
+    </LinearLayout>
+</ScrollView>

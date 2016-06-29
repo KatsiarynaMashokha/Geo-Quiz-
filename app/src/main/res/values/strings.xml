@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Geo Quiz</string>
+    <!-- Welcome message. -->
+    <string name="WelcomeMessage">"Welcome to Geo Quiz! You have an ooportunity to test your geohraphy knowledge right now! Let's begin our journey!"</string>
+    <string name="StartQuiz">"Start Geo Quiz"</string>
+    <!-- List of questions. -->
+    <string name="QuestionOne">"Question 1: This bridge is located in "\u2026""</string>
+    <string name="QuestionTwo">"Question 2: Check the boxes for the cities that ARE NOT capitals."</string>
+    <string name="QuestionThree">"Question 3: The name of this mausoleum is "</string>
+    <string name="QuestionThreeHint">"(Select one answer.) "</string>
+    <string name="QuestionFour">"Question 4: What country do you see in this picture?"</string>
+    <string name="QuestionFive">"Question 5: Which of the given countries are located IN AFRICA?"</string>
+    <string name="QuestionFiveHint">"(Select two answers.)"</string>
+    <string name="QuestionSix">"Question 6: What country DOES NOT HAVE French as an official language?"</string>
+    <string name="QuestionSeven">" Question 7: Flag of what country do you see in this picture?"</string>
+
+    <!-- Submit Answer button. -->
+    <string name="SubmitAnswer">"Submit Answer"</string>
+
+    <!-- Final message -->
+    <string name="FinalMessage">"Hurray!!! You finished Geo Quiz!"</string>
+    <string name="FinalMessageTwo">"Click the button to see your result"</string>
+
+</resources>
+
+

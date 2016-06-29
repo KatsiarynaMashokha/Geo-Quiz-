@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+
+    <LinearLayout style="@style/ParentLinearLayout">
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:text="@string/QuestionTwo" />
+
+        <CheckBox
+            android:id="@+id/checkQ2A1"
+            style="@style/CheckBox"
+            android:text="Kuala Lumpur" />
+
+        <CheckBox
+            android:id="@+id/checkQ2A2"
+            style="@style/CheckBox"
+            android:text="Barcelona" />
+
+        <CheckBox
+            android:id="@+id/checkQ2A3"
+            style="@style/CheckBox"
+            android:text="Sydney" />
+
+        <CheckBox
+            android:id="@+id/checkQ2A4"
+            style="@style/CheckBox"
+            android:text="Minsk" />
+
+        <CheckBox
+            android:id="@+id/checkQ2A5"
+            style="@style/CheckBox"
+            android:text="Toronto" />
+
+        <Button
+            style="@style/SubmitAnswer"
+            android:onClick="checkQ2"
+            android:text="@string/SubmitAnswer" />
+
+
+    </LinearLayout>
+</ScrollView>

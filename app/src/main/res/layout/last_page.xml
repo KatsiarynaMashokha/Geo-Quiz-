@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+
+    <LinearLayout style="@style/ParentLinearLayout">
+
+        <TextView
+            android:id="@+id/final_message_text_view"
+            style="@style/QuestionMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FinalMessage"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/final_message_two_text_view"
+            style="@style/QuestionMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FinalMessageTwo" />
+
+        <ImageView
+            android:id="@+id/results_image_view"
+            style="@style/ImageViewStyle"
+            android:layout_marginBottom="48dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/results" />
+
+        <Button
+            android:id="@+id/results_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:background="#BBDEFB"
+            android:onClick="checkResult"
+            android:text="See Result" />
+
+    </LinearLayout>
+</ScrollView>

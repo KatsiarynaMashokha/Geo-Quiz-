@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+
+    <LinearLayout style="@style/ParentLinearLayout">
+
+        <ImageView
+            style="@style/ImageViewStyle"
+            android:src="@drawable/taj" />
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:text="@string/QuestionThree" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/QuestionThreeHint"/>
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3A1_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ3"
+                android:text="Taj Hakhal" />
+
+            <RadioButton
+                android:id="@+id/q3A2_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ3"
+                android:text="Taj Mahal" />
+
+            <RadioButton
+                android:id="@+id/q3A3_radio_button"
+                style="@style/RadioButtonStyle"
+                android:onClick="onRadioButtonClickedQ3"
+                android:text="Taj Halal" />
+
+        </RadioGroup>
+
+        <Button
+            style="@style/SubmitAnswer"
+            android:onClick="onClickQ3Submit"
+            android:text="@string/SubmitAnswer" />
+
+    </LinearLayout>
+</ScrollView>

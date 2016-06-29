@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+
+    <LinearLayout style="@style/ParentLinearLayout">
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:text="@string/QuestionFive" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@android:color/darker_gray"
+            android:text="@string/QuestionFiveHint"/>
+        <CheckBox
+            android:id="@+id/checkQ5A1"
+            style="@style/CheckBox"
+            android:text="Kiribati" />
+
+        <CheckBox
+            android:id="@+id/checkQ5A2"
+            style="@style/CheckBox"
+            android:text="Comoros" />
+
+        <CheckBox
+            android:id="@+id/checkQ5A3"
+            style="@style/CheckBox"
+            android:text="Guyana" />
+
+        <CheckBox
+            android:id="@+id/checkQ5A4"
+            style="@style/CheckBox"
+            android:text="Guinea Bissau" />
+
+        <CheckBox
+            android:id="@+id/checkQ5A5"
+            style="@style/CheckBox"
+            android:text="Suriname" />
+
+        <Button
+            style="@style/SubmitAnswer"
+            android:onClick="checkQ5"
+            android:text="@string/SubmitAnswer" />
+
+
+    </LinearLayout>
+</ScrollView>

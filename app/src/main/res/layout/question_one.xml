@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+
+    <LinearLayout style="@style/ParentLinearLayout">
+
+        <ImageView
+            style="@style/ImageViewStyle"
+            android:src="@drawable/bridge" />
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:text="@string/QuestionOne" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkQ1A1"
+            android:text="New York" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkQ1A2"
+            android:text="Tokyo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="checkQ1A3"
+            android:text="San Fransicso" />
+
+    </LinearLayout>
+</ScrollView>

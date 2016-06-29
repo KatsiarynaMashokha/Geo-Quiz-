@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    tools:context="com.example.android.testtry.MainActivity">
+    <LinearLayout
+        style="@style/ParentLinearLayout">
+
+        <TextView
+            style="@style/QuestionMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/WelcomeMessage" />
+
+        <EditText
+            android:id="@+id/player_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Enter your name here"
+            android:inputType="textCapWords" />
+
+        <ImageView
+            style="@style/ImageViewStyle"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/globe"/>
+
+        <Button
+            android:id="@+id/start_quiz_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="#BBDEFB"
+            android:onClick="startQuiz"
+            android:text="@string/StartQuiz"/>
+    </LinearLayout>
+</ScrollView>
